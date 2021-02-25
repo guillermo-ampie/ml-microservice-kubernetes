@@ -11,12 +11,21 @@ This project uses a pre-trained, `sklearn` model that has been trained to predic
 
 Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
 * Test your project code using linting: `make lint`
-* Complete a Dockerfile to containerize this application: [Dockerfile] (https://./Dockerfile)
+* Complete a Dockerfile to containerize this application: [Dockerfile](Dockerfile)
 * Deploy your containerized application using Docker and make a prediction
-* Improve the log statements in the source code for this application
+  * [run_docker.sh](run_docker.sh)  
+  * [make_prediction.sh](make_prediction.sh)
+* Improve the log statements in the source code for this application: [app.py](app.py) 
 * Configure Kubernetes and create a Kubernetes cluster
+  * [Install Docker](https://docs.docker.com/v17.12/install/)
+  * Install Minikube (for macOS): `brew cask install minikube` 
+  * Start minikube: `minikube start`
+  * Check your cluster: `kubectl config view` 
 * Deploy a container using Kubernetes and make a prediction
+  * [run_kubernetes.sh](run_kubernetes.sh)
+  * [make_prediction.sh](make_prediction.sh)  
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
+* CircleCI config file: [.circleci/config.yml](.circleci/config.yml)
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
@@ -41,3 +50,14 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Main files:
+* The python Flask app: [app.py](app.py)
+* The Dockerfile to containerize the app: [Dockerfile](Dockerfile)
+* To make and run your container: [run_docker.sh](run_docker.sh)
+* To make a prediction: [make_prediction.sh](make_prediction.sh)
+* To deploy a container using Kubernetes and make a prediction
+  * [run_kubernetes.sh](run_kubernetes.sh)
+  * [make_prediction.sh](make_prediction.sh)
+* To integrate and test your app and Dockerfile: [.circleci/config.yml](.circleci/config.yml)
+
