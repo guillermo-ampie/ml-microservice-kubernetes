@@ -16,6 +16,7 @@ Your project goal is to operationalize this working, machine learning microservi
   * [run_docker.sh](run_docker.sh)
     * Sample output: [docker_out.txt](output_txt_files/docker_out.txt)
   * [make_prediction.sh](make_prediction.sh)
+    * Sample output [prediction_out.txt](output_txt_files/prediction_out.txt)
 * Improve the log statements in the source code for this application: [app.py](app.py) 
 * Configure Kubernetes and create a Kubernetes cluster
   * [Install Docker](https://docs.docker.com/v17.12/install/)
@@ -26,6 +27,7 @@ Your project goal is to operationalize this working, machine learning microservi
   * [run_kubernetes.sh](run_kubernetes.sh)
     * Sample output: [kubernetes_out.txt](output_txt_files/kubernetes_out.txt) 
   * [make_prediction.sh](make_prediction.sh)  
+    * Sample output: [prediction_out.txt](output_txt_files/prediction_out.txt)
 * Upload a complete Github repo with [CircleCI](https://www.circleci.com) to indicate that your code has been tested
 * CircleCI config file: [.circleci/config.yml](.circleci/config.yml)
 
