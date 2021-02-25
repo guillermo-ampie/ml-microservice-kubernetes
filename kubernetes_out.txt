@@ -1,0 +1,20 @@
+(.devops) amp (master *) project-05 $ date;./run_kubernetes.sh
+Thu Feb 25 11:51:56 CST 2021
+deployment.apps/housing-prices-api created
+service/housing-prices-api exposed
+
+Listing pods
+NAME                                  READY   STATUS              RESTARTS   AGE
+housing-prices-api-5c4794d49b-bckjr   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) amp (master *) project-05 $ date;./run_kubernetes.sh
+Thu Feb 25 11:52:27 CST 2021
+error: failed to create deployment: deployments.apps "housing-prices-api" already exists
+
+Listing pods
+NAME                                  READY   STATUS    RESTARTS   AGE
+housing-prices-api-5c4794d49b-bckjr   1/1     Running   0          30s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+Handling connection for 8000
