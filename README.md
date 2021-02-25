@@ -13,7 +13,8 @@ Your project goal is to operationalize this working, machine learning microservi
 * Test your project code using linting: `make lint`
 * Complete a Dockerfile to containerize this application: [Dockerfile](Dockerfile)
 * Deploy your containerized application using Docker and make a prediction
-  * [run_docker.sh](run_docker.sh)  
+  * [run_docker.sh](run_docker.sh)
+    * Sample output: [docker_out.txt](output_txt_files/docker_out.txt)
   * [make_prediction.sh](make_prediction.sh)
 * Improve the log statements in the source code for this application: [app.py](app.py) 
 * Configure Kubernetes and create a Kubernetes cluster
@@ -23,8 +24,9 @@ Your project goal is to operationalize this working, machine learning microservi
   * Check your cluster: `kubectl config view` 
 * Deploy a container using Kubernetes and make a prediction
   * [run_kubernetes.sh](run_kubernetes.sh)
+    * Sample output: [kubernetes_out.txt](output_txt_files/kubernetes_out.txt) 
   * [make_prediction.sh](make_prediction.sh)  
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+* Upload a complete Github repo with [CircleCI](https://www.circleci.com) to indicate that your code has been tested
 * CircleCI config file: [.circleci/config.yml](.circleci/config.yml)
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
@@ -53,11 +55,12 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Main files:
 * The python Flask app: [app.py](app.py)
+* The [sklearn](https://scikit-learn.org/) pre-trained model: [model_data/boston_housing_prediction.joblib](model_data/boston_housing_prediction.joblib)
 * The Dockerfile to containerize the app: [Dockerfile](Dockerfile)
 * To make and run your container: [run_docker.sh](run_docker.sh)
 * To make a prediction: [make_prediction.sh](make_prediction.sh)
 * To deploy a container using Kubernetes and make a prediction
   * [run_kubernetes.sh](run_kubernetes.sh)
   * [make_prediction.sh](make_prediction.sh)
-* To integrate and test your app under CircleCI: [.circleci/config.yml](.circleci/config.yml)
+* To integrate and test your app under [CircleCI](https://www.circleci.com): [.circleci/config.yml](.circleci/config.yml)
 
