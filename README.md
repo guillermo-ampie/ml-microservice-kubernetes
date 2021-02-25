@@ -59,5 +59,5 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * To deploy a container using Kubernetes and make a prediction
   * [run_kubernetes.sh](run_kubernetes.sh)
   * [make_prediction.sh](make_prediction.sh)
-* To integrate and test your app and Dockerfile: [.circleci/config.yml](.circleci/config.yml)
+* To integrate and test your app under CircleCI: [.circleci/config.yml](.circleci/config.yml)
 
