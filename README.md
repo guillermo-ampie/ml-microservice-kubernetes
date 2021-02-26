@@ -24,6 +24,7 @@ Your project goal is to operationalize this working, machine learning microservi
     * Sample output [prediction_out.txt](output_txt_files/prediction_out.txt)
 * Improve the log statements in the source code for this application: [app.py](app.py) 
 * Configure Kubernetes and create a Kubernetes cluster
+  * Upload your container to [DockerHub](https://hub.docker.com/repository/docker/gampie/housing-prices-api): [upload_docker.sh](upload_docker.sh)
   * [Install Docker](https://docs.docker.com/v17.12/install/)
   * Install kubectl(for macOS): `brew install kubectl`
   * Install Minikube (for macOS): `brew cask install minikube` 
@@ -69,6 +70,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * The Dockerfile to containerize the app: [Dockerfile](Dockerfile)
 * To make and run your container: [run_docker.sh](run_docker.sh)
 * To make a prediction: [make_prediction.sh](make_prediction.sh)
+* To upload your container to [DockerHub](https://hub.docker.com/repository/docker/gampie/housing-prices-api): [upload_docker.sh](upload_docker.sh)
 * To deploy a container using Kubernetes and make a prediction
   * [run_kubernetes.sh](run_kubernetes.sh)
   * [make_prediction.sh](make_prediction.sh)
