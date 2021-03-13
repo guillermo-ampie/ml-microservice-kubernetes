@@ -75,4 +75,3 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
   * [run_kubernetes.sh](run_kubernetes.sh)
   * [make_prediction.sh](make_prediction.sh)
 * To integrate and test your app under [CircleCI](https://www.circleci.com): [.circleci/config.yml](.circleci/config.yml)
-
