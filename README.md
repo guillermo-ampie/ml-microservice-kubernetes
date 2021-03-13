@@ -1,6 +1,7 @@
-[![Guillermo Ampie](https://circleci.com/gh/guillermo-ampie/ml-microservice-kubernetes.svg?style=shield)](https://github.com/guillermo-ampie/project-ml-microservice-kubernetes)
 
 # Operationalize a Machine Learning Microservice API
+
+[![Guillermo Ampie](https://circleci.com/gh/guillermo-ampie/ml-microservice-kubernetes.svg?style=shield)](https://github.com/guillermo-ampie/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
