@@ -3,7 +3,7 @@
 # This tags and uploads an image to Docker Hub
 
 # Set vars
-DOCKER_HUB_ID="gampie"
+DOCKER_HUB_ID="gampie" #TODO: Use explicit DockerHub registry URI
 DOCKER_REPOSITORY="housing-prices-api"
 DEPLOYMENT_NAME=${DOCKER_REPOSITORY}
 CONTAINER_PORT=80
