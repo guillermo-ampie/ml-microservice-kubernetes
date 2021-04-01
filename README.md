@@ -69,7 +69,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Main files
 
 * The python Flask app: [app.py](app.py)
-* The [sklearn](https://scikit-learn.org/) pre-trained model: [model_data/boston_housing_prediction.joblib](model_data/boston_housing_prediction.joblib)
+* The [sklearn](https://scikit-learn.org/) pre-trained model: [boston_housing_prediction.joblib](model_data/boston_housing_prediction.joblib)
 * The Dockerfile to containerize the app: [Dockerfile](Dockerfile)
 * To make and run your container: [run_docker.sh](run_docker.sh)
 * To make a prediction: [make_prediction.sh](make_prediction.sh)
@@ -77,4 +77,4 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * To deploy a container using Kubernetes and make a prediction
   * [run_kubernetes.sh](run_kubernetes.sh)
   * [make_prediction.sh](make_prediction.sh)
-* To integrate and test your app under [CircleCI](https://www.circleci.com): [.circleci/config.yml](.circleci/config.yml)
+* To integrate and test your app under [CircleCI](https://www.circleci.com): [config.yml](.circleci/config.yml)
